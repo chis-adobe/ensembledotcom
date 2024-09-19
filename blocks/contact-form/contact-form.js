@@ -32,7 +32,7 @@ function submitForm() {
   console.log(body);
 
   // change link to your email-form URL
-  fetch('https://main--ensembledotcom--chis-adobe.aem.page/email-form', {
+  fetch('https://main--ensembledotcom--chis-adobe.aem.live/email-form', {
     method: "POST",
     body,
   }).then((response) => {
